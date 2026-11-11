@@ -1,0 +1,125 @@
+
+.add-job-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+  background: #f4f6fb;
+}
+
+.add-job-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 35px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.add-job-icon {
+  font-size: 42px;
+  text-align: center;
+}
+
+.add-job-card h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.add-job-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 28px;
+}
+
+.add-job-field {
+  margin-bottom: 18px;
+}
+
+.add-job-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-weight: bold;
+}
+
+.add-job-field input,
+.add-job-field select {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+  color: #1e293b;
+  font-size: 15px;
+  outline: none;
+}
+
+.add-job-field input:focus,
+.add-job-field select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.add-job-submit {
+  width: 100%;
+  padding: 13px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-job-submit:hover {
+  background: #1d4ed8;
+}
+
+.add-job-success {
+  color: #15803d;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.add-job-error {
+  color: #dc2626;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.back-dashboard {
+  display: block;
+  margin: 18px auto 0;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Edit/Add Job heading fix */
+.add-job-card h1 {
+  font-size: 28px;
+  line-height: 1.4;
+  text-align: center;
+  color: #1e3a8a;
+  margin: 10px 0 8px;
+}
+
+.add-job-subtitle {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 0 28px;
+}
+
+.add-job-icon {
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
