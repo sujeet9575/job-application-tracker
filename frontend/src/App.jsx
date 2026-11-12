@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom";
 
 import Login from "./pages/Login";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import AddJob from "./pages/AddJob";
@@ -64,7 +66,14 @@ function App() {
 <Routes>
   <Route path="/" element={<Login />} />
   <Route path="/register" element={<Register />} />
-
+    <Route
+     path="/forgot-password"
+     element={<ForgotPassword />}
+    />
+    <Route
+  path="/reset-password/:token"
+  element={<ResetPassword />}
+/>
   <Route
     path="/dashboard"
     element={

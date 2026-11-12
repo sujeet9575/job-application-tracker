@@ -84,6 +84,11 @@ if (token) {
               required
             />
           </div>
+          <div style={{ textAlign: "right", marginBottom: "15px" }}>
+            <Link to="/forgot-password">
+           Forgot Password?
+          </Link>
+          </div>
 
           <button
             type="submit"
